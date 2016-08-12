@@ -1182,6 +1182,20 @@ p a {
   padding-bottom: 2px;
   border-bottom: 1px solid #ff5855; }
 
+/*
+  * global responsible
+*/
+
+@media (max-width: 900px) {
+  .half{
+    padding-top: 50vh;
+  }
+  .illu {
+    background-position: center top;
+    background-size: contain;
+  }
+}
+
 /**
  * @Hero
  */
@@ -1224,16 +1238,7 @@ p a {
   left: 0px;
   }
 
-@media (max-width: 900px) {
-  .s-intro{
-    padding-top: 100vh;
-  }
-  .s-intro .pigeons {
-    background-position: center top;
-    background-size: contain;
-    height: 100vh;
-  }
-}
+
 
 .s-intro .btn {
   margin-top: 25px; }
