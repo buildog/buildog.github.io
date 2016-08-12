@@ -1224,6 +1224,11 @@ p a {
   left: 0px;
   }
 
+@media (max-width: 900px) {
+  .s-intro .pigeons {
+    background-position: center top;
+  }
+}
 
 .s-intro .btn {
   margin-top: 25px; }
