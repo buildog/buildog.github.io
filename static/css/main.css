@@ -1188,7 +1188,7 @@ p a {
 
 @media (max-width: 900px) {
   .half{
-    padding-top: 50vh;
+    padding-top: 50vh !important;
   }
   .illu {
     background-position: center top !important;
