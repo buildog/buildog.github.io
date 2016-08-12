@@ -873,8 +873,6 @@ body.overlay-is-open {
     margin-top: 2.5em; }
   .overlay .logo{
     transform: scale(.7);
-    -webkit-transform: scale(.7)!important;
-
   }
   .overlay .logo span,
   .overlay .logo small {
@@ -904,10 +902,11 @@ body.overlay-is-open {
         background-color: #ff5855;
         transition: width ease 0.3s; }
   @media (max-width: 768px) {
+    .overlay .logo{
+      transform: scale(.5);
+    }
     .overlay ul li a {
-      font-size: 4vh; }
-    .overlay .social a {
-      font-size: 35px; } }
+      font-size: 4vh; }}
 
 /* Menu style */
 .overlay nav {
