@@ -1146,10 +1146,6 @@ header {
   font-style: italic;
   margin-top: 0;
   margin-bottom: 1.5em; }
-  @media (max-width: 900px) {
-    .s h2 + h3 {
-      margin-right: auto;
-      margin-left: auto; } }
 
 .s h2 {
   display: inline-block;
