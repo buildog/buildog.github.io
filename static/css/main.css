@@ -862,7 +862,7 @@ body.overlay-is-open {
 
 /* Overlay style */
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
