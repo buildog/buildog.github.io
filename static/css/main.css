@@ -873,7 +873,7 @@ body.overlay-is-open {
     margin-top: 2.5em; }
   .overlay .logo{
     transform: scale(.7);
-    -webkit-transform: scale(.6)  translateX(80%) !important;
+    -webkit-transform: scale(.7)!important;
 
   }
   .overlay .logo span,
