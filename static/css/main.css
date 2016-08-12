@@ -1139,8 +1139,6 @@ header {
 }
 
 .s h2 + h3 {
-  max-width: 380px;
-  font-size: 28px;
   line-height: 1.4;
   font-weight: normal;
   font-style: italic;
