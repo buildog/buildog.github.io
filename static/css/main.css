@@ -1230,6 +1230,7 @@ p a {
   }
   .s-intro .pigeons {
     background-position: center top;
+    background-size: contain;
     height: 100vh;
   }
 }
