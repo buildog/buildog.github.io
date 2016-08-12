@@ -873,6 +873,8 @@ body.overlay-is-open {
     margin-top: 2.5em; }
   .overlay .logo{
     transform: scale(.7);
+    -webkit-transform: scale(.6)  translateX(80%) !important;
+
   }
   .overlay .logo span,
   .overlay .logo small {
@@ -1400,6 +1402,7 @@ strong.fluo{
   .s-contact .logo{
     float: right;
     transform: scale(0.6) translateX(80%);
+    -webkit-transform: scale(.6)  translateX(80%) !important;
   }
 
   .s-contact .logo span,
