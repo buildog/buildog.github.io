@@ -30,7 +30,6 @@
     font-weight: 700;
 }
 
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -904,7 +903,8 @@ body.overlay-is-open {
         transition: width ease 0.3s; }
   @media (max-width: 768px) {
     .overlay .logo{
-      transform: scale(.5);
+      transform:scale(.5);
+      -webkit-transform: scale(.5);
     }
     .overlay ul li a {
       font-size: 4vh; }}
