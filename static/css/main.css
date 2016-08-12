@@ -887,7 +887,7 @@ body.overlay-is-open {
       text-decoration: none;
       color: white;
       font-weight: 200;
-      font-size: 6vh;
+      font-size: 4vh;
       }
       .overlay ul li:not(:last-of-type) a{
         border-bottom: 4px solid rgba(256,256,256,0.3)
