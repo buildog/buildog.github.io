@@ -1055,8 +1055,18 @@ header {
   .logo h1 {
     margin: 0; }
   .logo img {
+    position: relative;
     width: 100%;
     width: 340px; }
+  .logo img:after{
+    position: absolute;
+    top:20%;
+    right:-40px;
+    content:"r";
+    border:1px solid #CCC;
+    border-radius: 50%
+
+  }
   .logo span,
   .logo small{
     color:#1e1f25;
