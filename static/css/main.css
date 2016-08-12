@@ -1236,7 +1236,7 @@ p a {
 
 @media (max-width: 900px) {
   .s-intro .pigeons {
-    background-size: contain;
+    background-size: cover;
   }
 }
 
