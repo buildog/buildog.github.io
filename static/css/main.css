@@ -1399,7 +1399,7 @@ strong.fluo{
 
   .s-contact .logo{
     float: right;
-    transform: scale(0.7) translateX(80%);
+    transform: scale(0.8) translateX(70%);
     -webkit-transform: scale(.6)  translateX(80%) !important;
   }
 
