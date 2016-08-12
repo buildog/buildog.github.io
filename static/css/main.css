@@ -885,9 +885,12 @@ body.overlay-is-open {
       display: inline-block;
       text-decoration: none;
       color: white;
-      font-weight: 900;
-      font-size: 8vh;
-      text-transform: uppercase; }
+      font-weight: 200;
+      font-size: 6vh;
+      }
+      .overlay ul li:not(:last-of-type) a{
+        border-bottom: 4px solid rgba(256,256,256,0.3)
+      }
       .overlay ul li a:after {
         content: '';
         display: block;
