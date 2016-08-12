@@ -1300,19 +1300,20 @@ strong.fluo{
   position: relative;
   z-index: 10;
   display: inline-block;
-  color:#FFF;
+  color:#79700f;
 }
 
   strong.fluo:before, strong.fluo:after{
-    background: #ff5855;
+    background: #fdf167;
     border-radius: 3px;
+    padding: 0px 3px;
     bottom: 0;
     content: "";
     height: 90%;
     left: -3px;
     overflow: hidden;
     position: absolute;
-    transform: skewX(-1deg) rotate(-0.8deg) translateY(0%);
+    transform: skewX(-1deg) rotate(-0.2deg) translateY(0%);
     transform-origin: left bottom 0;
     width: 0;
     z-index: -1;
@@ -1320,9 +1321,9 @@ strong.fluo{
 
   strong.fluo:before{
     left: 2px;
-    transform: skewX(-2deg) rotate(-1.5deg) translateY(4px);
+    transform: skewX(2deg) rotate(0.5deg) translateY(2px);
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.6;
 
   }
 
