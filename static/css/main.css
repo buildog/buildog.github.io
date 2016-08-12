@@ -518,7 +518,9 @@ input, textarea {
   width: 25px;
   height: 14px;
   display: inline-block;
-  position: relative;
+  position: absolute;
+  top:15px;
+  left: 10px;
 }
 
 .hamburger-inner {
@@ -1130,7 +1132,7 @@ header {
   position: relative;
   z-index: 2;
   padding: 100px 0;
-  background: white; }
+}
 
 .s h2 + h3 {
   max-width: 380px;
