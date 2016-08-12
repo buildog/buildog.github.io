@@ -1257,7 +1257,11 @@ p a {
     padding-top: 400px; }
   .s-what .question {
     background-position: center top;
-  }}
+  }
+  .s-what h3{
+    display: none
+  }
+}
 
 /**
  * @ido
