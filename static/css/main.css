@@ -1233,6 +1233,13 @@ p a {
 .s-intro .btn {
   margin-top: 25px; }
 
+
+@media (max-width: 900px) {
+  .s-intro .pigeons {
+    background-size: contain;
+  }
+}
+
 /**
  * @question
  */
