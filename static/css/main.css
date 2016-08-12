@@ -1226,11 +1226,11 @@ p a {
 
 @media (max-width: 900px) {
   .s-intro{
-    padding-top: 50vh;
+    padding-top: 100vh;
   }
   .s-intro .pigeons {
     background-position: center top;
-    height: 50vh;
+    height: 100vh;
   }
 }
 
