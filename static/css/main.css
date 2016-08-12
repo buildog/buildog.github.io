@@ -1278,7 +1278,7 @@ p a {
   display: inline-block;
   padding: 30px 80px;
   background: #FFF;
-  border:2px solid #ed5565;
+  border:3px solid #ed5565;
   border-radius: 6px;
 }
 
@@ -1326,7 +1326,7 @@ p a {
   background: #FFF;
   display: inline-block;
   padding: 30px 80px;
-  border:2px solid #70bd55;
+  border:3px solid #70bd55;
   border-radius: 6px;
 }
 
