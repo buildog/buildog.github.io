@@ -1209,6 +1209,11 @@ p a {
     background-position: center top !important;
     background-size: contain !important;
   }
+  .fullwidth{
+    padding-left: auto !important;
+    padding-right: auto !important;
+    width: 100% !important
+  }
 }
 
 /**
@@ -1371,7 +1376,12 @@ strong.fluo{
   .s-do .wireframes {
     width: 80%;
     margin: 0 auto;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+
+
+
+  }
 
 /**
  * @skills
