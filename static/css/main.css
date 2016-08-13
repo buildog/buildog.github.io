@@ -1273,8 +1273,6 @@ p a {
   }
 
 @media (max-width: 900px) {
-  .s-what{
-    padding-top: 400px; }
   .s-what .question {
     background-position: center top;
   }
