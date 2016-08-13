@@ -1202,12 +1202,9 @@ p a {
 */
 
 @media (max-width: 900px) {
-  .half{
-    padding-top: 50vh !important;
-  }
+
   .illu {
     background-position: center top !important;
-    background-size: contain !important;
   }
   .fullwidth{
     padding-left: auto !important;
@@ -1246,13 +1243,11 @@ p a {
 
 .s-intro{
   margin-top:-20vh;
-  padding-top: 550px;
 }
 
 .s-intro .pigeons {
   background: #f8fafb url("../img/pigeons.png") no-repeat 40% top;
-  position: absolute;
-  height: 100%;
+  height: 600px;
   width: 100%;
   top:0px;
   left: 0px;
@@ -1268,17 +1263,14 @@ p a {
  * @question
  */
 .s-what{
+  background: #f4f3ed;
   margin-top:-5vh;
-  min-height: 500px;
 }
 
 .s-what .question {
-  background: #f4f3ed url("../img/question.png") no-repeat 0% center;
-  position: absolute;
-  height: 100%;
+  background: url("../img/question.png") no-repeat center center;
+  height: 400px;
   width: 100%;
-  top:0px;
-  left: 0px;
   }
 
 @media (max-width: 900px) {
@@ -1295,14 +1287,12 @@ p a {
 
 .s-do{
   margin-top:-5vh;
-  padding-top: 480px;
 }
 
 
 .s-do .vault {
   background: #f7f7f5 url("../img/vault.png") no-repeat center top;
-  position: absolute;
-  height: 100%;
+  height: 500px;
   width: 100%;
   top:0px;
   left: 0px;
@@ -1389,16 +1379,12 @@ strong.fluo{
 
 .s-skills{
   margin-top:-5vh;
-  padding-top: 430px;
 }
 
 .s-skills .cool {
   background: #f9f9f9 url("../img/cool.png") no-repeat center top;
-  position: absolute;
-  height: 100%;
+  height: 450px;
   width: 100%;
-  top:0px;
-  left: 0px;
   }
 
 .s-skills .price_tag{
@@ -1416,16 +1402,12 @@ strong.fluo{
 
 .s-contact{
   margin-top:-5vh;
-  padding-top: 470px;
 }
 
 .s-contact .space_dog {
   background: #f5f8fc url("../img/space_dog.png") no-repeat center top;
-  position: absolute;
-  height: 100%;
+  height: 500px;
   width: 100%;
-  top:0px;
-  left: 0px;
   }
 
   .s-contact a{
