@@ -959,7 +959,7 @@ body.overlay-is-close .overlay nav ul {
 .overlay__blur {
   height: 100%;
   width: 100%;
-  background: #f8fafb url("../img/swiss.jpg") no-repeat center center / cover;
+  background: #f8fafb url("../img/office2.jpg") no-repeat center center / cover;
   z-index: 1
 }
 
@@ -1056,6 +1056,7 @@ header {
   .logo img {
     position: relative;
      }
+  /*
   .logo:before{
     border-radius: 50%;
     content: "®";
@@ -1068,7 +1069,7 @@ header {
     position: relative;
     width: 20px;
     z-index: 10;
-  }
+  } */
   .logo span,
   .logo small{
     display: inline-block;
@@ -1241,11 +1242,12 @@ p a {
  */
 
 .s-intro{
-  margin-top:-260px;
+  margin-top:-20vh;
+  background: #f8fafb;
 }
 
 .s-intro .pigeons {
-  background: #f8fafb url("../img/pigeons.png") no-repeat 40% top;
+  background:url("../img/pigeons.png") no-repeat 40% top;
   height: 600px;
   width: 100%;
   top:0px;
@@ -1284,11 +1286,12 @@ p a {
 
 .s-do{
   margin-top:-5vh;
+  background: #f7f7f5;
 }
 
 
 .s-do .vault {
-  background: #f7f7f5 url("../img/vault.png") no-repeat center top;
+  background: url("../img/vault.png") no-repeat center top;
   height: 500px;
   width: 100%;
   top:0px;
@@ -1376,10 +1379,11 @@ strong.fluo{
 
 .s-skills{
   margin-top:-5vh;
+  background: #f9f9f9
 }
 
 .s-skills .cool {
-  background: #f9f9f9 url("../img/cool.png") no-repeat center top;
+  background: url("../img/cool.png") no-repeat center top;
   height: 450px;
   width: 100%;
   }
